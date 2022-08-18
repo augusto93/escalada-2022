@@ -50,7 +50,7 @@ export default function Home() {
         </div>
 
         <div className={styles.objectives} >
-          <Objectives isOpen={isOpen} setOpen={setOpen} anoAtivo={anoAtivo} setAnoAtivo={setAnoAtivo} />
+          {/* <Objectives isOpen={isOpen} setOpen={setOpen} anoAtivo={anoAtivo} setAnoAtivo={setAnoAtivo} /> */}
         </div>
 
         <div className={styles.climbing}>
@@ -63,12 +63,8 @@ export default function Home() {
 
         <footer className={styles.footer}>
           <TextFooter />
-          <ButtonVideo videoOpen={videoOpen} setVideoOpen={setVideoOpen} />
-          <Link href='https://bit.ly/3LF8ur1'>
-            <a target="_blank">
-              <ButtonPod />
-            </a>
-          </Link>
+          {/* <ButtonVideo videoOpen={videoOpen} setVideoOpen={setVideoOpen} /> */}
+          {/* <Link href='https://bit.ly/3LF8ur1'> <a target="_blank"> <ButtonPod /> </a> </Link> */}
           <LogoFooter />
         </footer>
 
