@@ -19,6 +19,7 @@ import Climbing from '../components/Climbing'
 import TextClimbing from '../components/TextClimbing'
 import PortraitScreen from '../components/PortraitScreen'
 import ButtonPod from '../components/ButtonPod'
+import Background from '../components/Background'
 
 export default function Home() {
 
@@ -43,6 +44,7 @@ export default function Home() {
       <Topic isOpen={isOpen} setOpen={setOpen} anoAtivo={anoAtivo} setAnoAtivo={setAnoAtivo} />
       <TextClimbing textOpen={textOpen} setTextOpen={setTextOpen} indexText={indexText} setIndexText={setIndexText} />
       <PortraitScreen />
+      <Background />
 
       <main className={styles.main}>
         <div className={styles.header}>
