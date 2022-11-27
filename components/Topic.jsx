@@ -1,4 +1,4 @@
-import Accordion from './accordion';
+import Accordion from '../components/Accordion';
 import Link from 'next/link';
 
 export default function Topic({isOpen, setOpen, anoAtivo, setAnoAtivo,}) {
