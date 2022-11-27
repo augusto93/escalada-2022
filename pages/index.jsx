@@ -21,6 +21,8 @@ import PortraitScreen from '../components/PortraitScreen'
 import ButtonPod from '../components/ButtonPod'
 import Background from '../components/Background'
 
+
+
 export default function Home() {
 
   const [isOpen, setOpen] = useState(false)
@@ -41,7 +43,6 @@ export default function Home() {
       </Head>
 
       <VidTopic videoOpen={videoOpen} setVideoOpen={setVideoOpen} />
-      <Topic isOpen={isOpen} setOpen={setOpen} anoAtivo={anoAtivo} setAnoAtivo={setAnoAtivo} />
       <TextClimbing textOpen={textOpen} setTextOpen={setTextOpen} indexText={indexText} setIndexText={setIndexText} />
       <PortraitScreen />
       <Background />
@@ -52,13 +53,13 @@ export default function Home() {
         </div>
 
         <div className={styles.objectives} >
-          {/* <Objectives isOpen={isOpen} setOpen={setOpen} anoAtivo={anoAtivo} setAnoAtivo={setAnoAtivo} /> */}
+            <Objectives isOpen={isOpen} setOpen={setOpen} anoAtivo={anoAtivo} setAnoAtivo={setAnoAtivo} />
         </div>
 
         <div className={styles.climbing}>
           <Climbing textOpen={textOpen} setTextOpen={setTextOpen} indexText={indexText} setIndexText={setIndexText} />
         </div>
-
+     
         <div className={styles.mountain}>
           <Mountain />
         </div>

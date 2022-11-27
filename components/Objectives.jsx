@@ -1,55 +1,23 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
-export default function Objectives({isOpen, setOpen, setAnoAtivo}) {
+export default function Objectives({isOpen, setOpen, }) {
 
   return (
       <div className="content">
         <div className="data">
 
-            <div className='item' onClick={() => {setOpen(!isOpen); setAnoAtivo(2018) }}>
+          <Link href={"/marcos"}>
+            <div className='item'>
               <div className='item-title'>
-                <h4>2018</h4>
+                <h4>Confira aqui</h4>
               </div>
               <div className='item-content'>
-                <p>+4 bcm</p>
-                <p>+385 MW</p>
+                <p>as escaladas dos</p>
+                <p>anos anteriores</p>
               </div>
             </div>
-
-          <div className='item' onClick={() => {setOpen(!isOpen); setAnoAtivo(2019) }}>
-            <div className='item-title'>
-              <h4>2019</h4>
-            </div>
-            <div className='item-content'>
-              <p>+4,1 bcm</p>
-              <p>+384 MW</p>
-            </div>
-          </div>
-
-          <div className='item' onClick={() => {setOpen(!isOpen); setAnoAtivo(2020) }}>
-            <div className='item-title'>
-              <h4>
-                2020
-              </h4>
-            </div>
-            <div className='item-content'>
-              <p>+5,5 bcm</p>
-              <p>+000 MW</p>
-            </div>
-          </div>
-
-          <div className='item' onClick={() => {setOpen(!isOpen); setAnoAtivo(2021) }}>
-            <div className='item-title'>
-              <h4>
-                2021
-              </h4>
-            </div>
-            <div className='item-content'>
-              <p>+00 bcm</p>
-              <p>+000 MW</p>
-            </div>
-          </div>
-          
+          </Link>
           
         </div>
         <Image
@@ -78,26 +46,26 @@ export default function Objectives({isOpen, setOpen, setAnoAtivo}) {
             align-items: flex-end;
             z-index: 990;
             line-height: 0;
-            right: 60px;
-            top: -15px;
+            right: 30px;
+            top: -100px;
           }
 
           .item {
             position: relative;
-            font-size: 0.6875rem;
+            font-size: 1rem;
             cursor: pointer;
             height: 60px;
           }
 
           .item-title {
             width: 100%;
-            height: 30%;
+            height: 35%;
             border-radius: 20px;
             display: flex;
             align-items: center;
             justify-content: flex-end;
             background-color: #ffba38;
-            font-size: 0.75rem;
+            font-size: 1.15rem;
             color: #006269;
             padding: 0 8px 0 0; 
           }
