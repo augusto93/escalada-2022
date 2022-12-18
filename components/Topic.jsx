@@ -1,4 +1,6 @@
 import Accordion from '../components/Accordion';
+import AccordionNoCheck from './AccordionNoCheck';
+
 import Link from 'next/link';
 
 export default function Topic({isOpen, setOpen, anoAtivo, setAnoAtivo,}) {
@@ -36,9 +38,9 @@ export default function Topic({isOpen, setOpen, anoAtivo, setAnoAtivo,}) {
 
               <Accordion title="Sucesso no leilão de energia" content="O leilão de energia, que será realizado, é uma importante oportunidade de comercialização de projetos de energia e pretendemos participar." />
 
-              <Accordion title="Comercialização da energia de Azulão" content="Com o término da aquisição do Campo de Azulão, temos um projeto de R2W para ser implementado. Após a definição da comercialização, a construção da térmica poderá ser iniciada, aumentando a nossa capacidade de geração." />
+              <AccordionNoCheck title="Comercialização da energia de Azulão" content="Com o término da aquisição do Campo de Azulão, temos um projeto de R2W para ser implementado. Após a definição da comercialização, a construção da térmica poderá ser iniciada, aumentando a nossa capacidade de geração." />
 
-              <Accordion title="Sucesso em leilões ANP" content="A aquisição de novas áreas exploratórias é fundamental para que no futuro tenhamos mais reservas de gás em terra e possamos desenvolver novos projetos R2W." />
+              <AccordionNoCheck title="Sucesso em leilões ANP" content="A aquisição de novas áreas exploratórias é fundamental para que no futuro tenhamos mais reservas de gás em terra e possamos desenvolver novos projetos R2W." />
 
               <Accordion title="Resolução ICMS Itaqui" content="A diminuição do imposto estadual é fundamental para o alcance da margem variável positiva para a usina de Itaqui e complementa as iniciativas de melhoria de performance e redução de custos, que estão em andamento." />
 
@@ -52,9 +54,9 @@ export default function Topic({isOpen, setOpen, anoAtivo, setAnoAtivo,}) {
 
               <Accordion title="Novo modelo de negócios da comercializadora" content="A estruturação do plano de negócios da comercializadora contribui na elevação da resiliência da companhia frente aos desafios de um futuro de expansão do mercado livre de energia." />
 
-              <Accordion title="Iniciar a campanha exploratória da rodada 14" content="A busca constante por novas reservas é um dos principais pilares para continuidade do negócio da Eneva, principalmente no Complexo Parnaíba onde as nossas termelétricas já estão instaladas." />
+              <AccordionNoCheck title="Iniciar a campanha exploratória da rodada 14" content="A busca constante por novas reservas é um dos principais pilares para continuidade do negócio da Eneva, principalmente no Complexo Parnaíba onde as nossas termelétricas já estão instaladas." />
 
-              <Accordion title="Converter recursos prospectivos em recursos contingentes na rodada 13" content="O esforço na prospecção de novos recursos é recompensado quando se tornam realidade." />
+              <AccordionNoCheck title="Converter recursos prospectivos em recursos contingentes na rodada 13" content="O esforço na prospecção de novos recursos é recompensado quando se tornam realidade." />
 
               <Accordion title="Criação de aceleradora de startups" content="Dando continuidade à construção da estratégia de inovação, o trabalho com startups é a ferramenta que a companhia escolheu para alavancar essa estratégia." />
 
@@ -62,7 +64,7 @@ export default function Topic({isOpen, setOpen, anoAtivo, setAnoAtivo,}) {
 
               <Accordion title="Início das obras de Parnaíba V no primeiro semestre de 2019" content="Após o vencimento no leilão A-6 em 2018, para entregar o compromisso assumido, é necessário executar o plano de implantação do projeto Parnaíba V, com início da obra em 2019." />
 
-              <Accordion title="Monetização de projeto Gas-to-Power" content="A nossa estratégia também considera o crescimento por meio de outros tipos de projeto de gás, como é o caso de projetos de gás associado e GNL. As termelétricas a gás são prioridade da estratégia considerando que esse é o nosso negócio, no qual podemos ter melhor vantagem competitiva." />
+              <AccordionNoCheck title="Monetização de projeto Gas-to-Power" content="A nossa estratégia também considera o crescimento por meio de outros tipos de projeto de gás, como é o caso de projetos de gás associado e GNL. As termelétricas a gás são prioridade da estratégia considerando que esse é o nosso negócio, no qual podemos ter melhor vantagem competitiva." />
 
             </div>
           </div>
@@ -76,11 +78,11 @@ export default function Topic({isOpen, setOpen, anoAtivo, setAnoAtivo,}) {
 
               <Accordion title="Obter financiamento para os projetos de crescimento (Parnaíba V e Azulão/ Jaguatirica)" content="Garantir os recursos necessários para as obras dos nossos projetos é fundamental para honrarmos os compromissos contratados nos leilões de energia. Os financiamentos ajudam a manter um fluxo financeiro adequado para o crescimento sem deixarmos de sustentar as operações existentes." />
 
-              <Accordion title="Finalizar a montagem das caldeiras de Parnaíba V e o posicionamento do gerador na base" content="As caldeiras e o gerador são os principais componentes para operação das usinas termelétricas. Garantir eles sejam instalados dentro do cronograma elaborado para as obras favorece o início do suprimento de energia no prazo que queremos." />
+              <AccordionNoCheck title="Finalizar a montagem das caldeiras de Parnaíba V e o posicionamento do gerador na base" content="As caldeiras e o gerador são os principais componentes para operação das usinas termelétricas. Garantir eles sejam instalados dentro do cronograma elaborado para as obras favorece o início do suprimento de energia no prazo que queremos." />
 
-              <Accordion title="Realizar o comissionamento a quente da planta de Azulão" content="Uma das fases importantes das obras de Azulão planejadas para este ano é a finalização dos testes de queima de gás para que a planta possa entrar em operação em 2021." />
+              <AccordionNoCheck title="Realizar o comissionamento a quente da planta de Azulão" content="Uma das fases importantes das obras de Azulão planejadas para este ano é a finalização dos testes de queima de gás para que a planta possa entrar em operação em 2021." />
 
-              <Accordion title="Adquirir áreas de interesse na Oferta Permanente" content="Devemos estar atentos às possibilidades que a Oferta Permanente, da ANP, pode apresentar em relação a áreas que tenham sinergia com o nosso plano de crescimento. Assim, poderemos aumentar nosso acesso ao gás." />
+              <AccordionNoCheck title="Adquirir áreas de interesse na Oferta Permanente" content="Devemos estar atentos às possibilidades que a Oferta Permanente, da ANP, pode apresentar em relação a áreas que tenham sinergia com o nosso plano de crescimento. Assim, poderemos aumentar nosso acesso ao gás." />
 
               <Accordion title="Comprovar reservas iguais ou superiores ao volume comprometido com Jaguatirica" content="O campo de Azulão é um importante vetor de crescimento para a companhia. Expandir suas reservas traz oportunidades na região Norte além do que já alcançamos com a contratação da UTE Jaguatirica." />
 
@@ -96,7 +98,7 @@ export default function Topic({isOpen, setOpen, anoAtivo, setAnoAtivo,}) {
           <div className='container-topic ano21'>
             <div className='container-marks'>
 
-              <Accordion title="Assinar o primeiro compromisso de fornecimento de micro-lng" content="A companhia tem buscado constantemente formas alternativas de monetização da molécula de gás nas localidades dos campos de Parnaíba e Azulão. Uma das formas é por meio da venda do gás liquefeito (GNL) diretamente para o cliente final (indústrias)." />
+              <AccordionNoCheck title="Assinar o primeiro compromisso de fornecimento de micro-lng" content="A companhia tem buscado constantemente formas alternativas de monetização da molécula de gás nas localidades dos campos de Parnaíba e Azulão. Uma das formas é por meio da venda do gás liquefeito (GNL) diretamente para o cliente final (indústrias)." />
 
               <Accordion title="Concluir o overhaul do turbogerador de Itaqui" content="Para manter nossas operações em elevados níveis de qualidade, eficiência e segurança, temos que ser diligentes em realizar manutenções preventivas e constantes." />
 
@@ -108,11 +110,11 @@ export default function Topic({isOpen, setOpen, anoAtivo, setAnoAtivo,}) {
 
               <Accordion title="Assinar contratos de concessão da oferta permanente" content="Em dez/2020 investimos no leilão da Oferta Permanente da ANP. Adquirimos 7 concessões exploratórias nas bacias do (I) Amazonas, (II) Paraná e (III) Solimões. Ao longo deste ano, trabalharemos para ter a assinatura dos contratos de concessão destes blocos e, assim, planejar a exploração e desenvolvimento dos campos." />
 
-              <Accordion title="Iniciar a operação de Jaguatirica II" content="A entrada em operação da usina Jaguatirica II marca um importante passo na história da companhia pelo pioneirismo na estruturação do projeto – a usina vai gerar aproximadamente 117 MW de energia elétrica a partir do gás proveniente do campo de Azulão." />
+              <AccordionNoCheck title="Iniciar a operação de Jaguatirica II" content="A entrada em operação da usina Jaguatirica II marca um importante passo na história da companhia pelo pioneirismo na estruturação do projeto – a usina vai gerar aproximadamente 117 MW de energia elétrica a partir do gás proveniente do campo de Azulão." />
 
               <Accordion title="Adquirir um ativo, projeto ou empresa, com adição dde 500 MWou mais de capacidade (ou equivalene energético)" content="A companhia está constantemente em busca de oportunidades para o desenvolvimento de novos projetos ou de fusões e aquisições que possam acelerar o crescimento e atingir os objetivos estratégicos." />
 
-              <Accordion title="Certificar reservas com volume maior que o consumido" content="A estratégia da Eneva tem como espinha dorsal o acesso à molécula de gás. Portanto, devemos nos esforçar continuamente para aumentar e recompor nossas reservas." />
+              <AccordionNoCheck title="Certificar reservas com volume maior que o consumido" content="A estratégia da Eneva tem como espinha dorsal o acesso à molécula de gás. Portanto, devemos nos esforçar continuamente para aumentar e recompor nossas reservas." />
 
               <Accordion title="Mapear 100% dos sucessores para posições críticas" content="As pessoas são os principais ativos para viabilizar a Eneva do futuro e, para isso, é fundamental garantir o capital intelectual para o nosso crescimento através do mapeamento, desenvolvimento e retenção dos sucessores das posições críticas." />
 

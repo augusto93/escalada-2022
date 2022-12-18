@@ -47,12 +47,24 @@ export default function Climbing({textOpen, setTextOpen, indexText, setIndexText
 
             <div className='data-item' onClick={() => {setTextOpen(!textOpen); setIndexText(105)}}>
               <div className='text-item'>Iniciar operação comercial de Jaguatirica II e Parnaíba V</div>
-              <div className='circles'>5</div>
+              <Image
+                src="/images/flag.png"
+                width={39}
+                height={48} 
+                layout='fixed'
+                alt="Flag"
+              />
             </div>
 
             <div className='data-item' onClick={() => {setTextOpen(!textOpen); setIndexText(106)}}>
               <div className='text-item'>Celebrar primeiro contrato de comercialização de gás para cliente final</div>
-              <div className='circles'>6</div>
+              <Image
+                src="/images/flag.png"
+                width={39}
+                height={48} 
+                layout='fixed'
+                alt="Flag"
+              />
             </div>
 
             <div className='data-item' onClick={() => {setTextOpen(!textOpen); setIndexText(107)}}>
@@ -72,17 +84,35 @@ export default function Climbing({textOpen, setTextOpen, indexText, setIndexText
 
             <div className='data-item' onClick={() => {setTextOpen(!textOpen); setIndexText(110)}}>
               <div className='text-item'>Aumentar 600 MW de capacidade de geração em projeto ou aquisição</div>
-              <div className='circles'>10</div>
+              <Image
+                src="/images/flag.png"
+                width={39}
+                height={48} 
+                layout='fixed'
+                alt="Flag"
+              />
             </div>
 
             <div className='data-item' onClick={() => {setTextOpen(!textOpen); setIndexText(111)}}>
               <div className='text-item'>Alcançar o rating C+ para ESG Eneva pela Refinitiv</div>
-              <div className='circles'>11</div>
+              <Image
+                src="/images/flag.png"
+                width={39}
+                height={48} 
+                layout='fixed'
+                alt="Flag"
+              />
             </div>
 
             <div className='data-item' onClick={() => {setTextOpen(!textOpen); setIndexText(112)}}>
               <div className='text-item'>Certificar reservas 2P maior que o consumo no Parnaíba e converter os volumes<br/>3P e 2C para reservas 2P no Amazonas</div>
-              <div className='circles'>12</div>
+              <Image
+                src="/images/flag.png"
+                width={39}
+                height={48} 
+                layout='fixed'
+                alt="Flag"
+              />
             </div>
 
             <div className='data-title'>
@@ -195,32 +225,33 @@ export default function Climbing({textOpen, setTextOpen, indexText, setIndexText
             }
 
             .data-item:nth-child(7) {
-              right: 50px;
+              right: 35px;
               bottom: 28px;
             }
 
             .data-item:nth-child(8) {
-              right: 10px;
+              right: -5px;
               bottom: 35px;
             }
 
             .data-item:nth-child(9) {
-              bottom: 45px;
+              right: -30px;
+              bottom: 50px;
             }
 
             .data-item:nth-child(10) {
-              right: -20px;
-              bottom: 60px;
+              right: -50px;
+              bottom: 50px;
             }
 
             .data-item:nth-child(11) {
-              right: -110px;
-              bottom: 75px;
+              right: -150px;
+              bottom: 50px;
             }
 
             .data-item:nth-child(12) {
-              right: -60px;
-              bottom: 90px;
+              right: -90px;
+              bottom: 45px;
             }
 
             `}
