@@ -54,7 +54,7 @@ export default function Topic({isOpen, setOpen, anoAtivo, setAnoAtivo,}) {
 
               <Accordion title="Novo modelo de negócios da comercializadora" content="A estruturação do plano de negócios da comercializadora contribui na elevação da resiliência da companhia frente aos desafios de um futuro de expansão do mercado livre de energia." />
 
-              <AccordionNoCheck title="Iniciar a campanha exploratória da rodada 14" content="A busca constante por novas reservas é um dos principais pilares para continuidade do negócio da Eneva, principalmente no Complexo Parnaíba onde as nossas termelétricas já estão instaladas." />
+              <Accordion title="Iniciar a campanha exploratória da rodada 14" content="A busca constante por novas reservas é um dos principais pilares para continuidade do negócio da Eneva, principalmente no Complexo Parnaíba onde as nossas termelétricas já estão instaladas." />
 
               <AccordionNoCheck title="Converter recursos prospectivos em recursos contingentes na rodada 13" content="O esforço na prospecção de novos recursos é recompensado quando se tornam realidade." />
 

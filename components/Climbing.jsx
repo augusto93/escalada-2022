@@ -9,13 +9,7 @@ export default function Climbing({textOpen, setTextOpen, indexText, setIndexText
 
             <div className='data-item' onClick={() => {setTextOpen(!textOpen); setIndexText(101)}}>
               <div className='text-item'>Concluir integração da Focus Energia e iniciar<br/>operação comercial de Futura 1</div>
-              <Image
-                src="/images/flag.png"
-                width={39}
-                height={48} 
-                layout='fixed'
-                alt="Flag"
-              />
+              <div className='circles'>1</div>
             </div>
 
             <div className='data-item' onClick={() => {setTextOpen(!textOpen); setIndexText(102)}}>
@@ -31,13 +25,7 @@ export default function Climbing({textOpen, setTextOpen, indexText, setIndexText
 
             <div className='data-item' onClick={() => {setTextOpen(!textOpen); setIndexText(103)}}>
               <div className='text-item'>Lançar Academia de Líderes e carreira em Y</div>
-              <Image
-                src="/images/flag.png"
-                width={39}
-                height={48} 
-                layout='fixed'
-                alt="Flag"
-              />
+              <div className='circles'>3</div>
             </div>
 
             <div className='data-item' onClick={() => {setTextOpen(!textOpen); setIndexText(104)}}>
@@ -202,20 +190,20 @@ export default function Climbing({textOpen, setTextOpen, indexText, setIndexText
             }
 
             .data-item:nth-child(2) {
-              right: 70px;
+              right: 100px;
             }
 
             .data-item:nth-child(3) {
-              right: 60px;
+              right: 90px;
             }
 
             .data-item:nth-child(4) {
-              right: 120px;
+              right: 150px;
               bottom: 5px;
             }
 
             .data-item:nth-child(5) {
-              right: 50px;
+              right: 80px;
               bottom: 12px;
             }
 
@@ -225,32 +213,32 @@ export default function Climbing({textOpen, setTextOpen, indexText, setIndexText
             }
 
             .data-item:nth-child(7) {
-              right: 35px;
+              right: 55px;
               bottom: 28px;
             }
 
             .data-item:nth-child(8) {
-              right: -5px;
+              right:  20px;
               bottom: 35px;
             }
 
             .data-item:nth-child(9) {
-              right: -30px;
+              right: 10px;
               bottom: 50px;
             }
 
             .data-item:nth-child(10) {
-              right: -50px;
+              right: -10px;
               bottom: 50px;
             }
 
             .data-item:nth-child(11) {
-              right: -150px;
+              right: -100px;
               bottom: 50px;
             }
 
             .data-item:nth-child(12) {
-              right: -90px;
+              right: -50px;
               bottom: 45px;
             }
 
