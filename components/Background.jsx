@@ -6,6 +6,7 @@ export default function Mountain() {
       <Image
         src="/images/bg.jpg"
         layout='fill'
+        unoptimized={true}
         alt="fundo"
       />
 

@@ -17,6 +17,7 @@ export default function Accordion (props) {
           height={31} 
           width={25}
           layout="fixed"
+          unoptimized={true}
           alt="Check"
         />
         <p style={{ textAlign: "left" , width: "90%" }} >{props.title}</p> 
@@ -25,6 +26,7 @@ export default function Accordion (props) {
           height={17} 
           width={17}
           layout="fixed"
+          unoptimized={true}
           alt="Check"
         />
       </button>

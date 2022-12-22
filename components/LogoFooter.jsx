@@ -8,6 +8,7 @@ export default function LogoFooter() {
           height={53} 
           width={55}
           layout="fixed"
+          unoptimized={true}
           alt="Logo Eneva"
         />
 

@@ -9,6 +9,7 @@ export default function ButtonPod() {
           height={29} 
           width={29}
           layout="fixed"
+          unoptimized={true}
           alt="Botão de play"
         />
       </div>

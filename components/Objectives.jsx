@@ -25,6 +25,7 @@ export default function Objectives({isOpen, setOpen, }) {
           height={272} 
           width={250}
           layout="fixed"
+          unoptimized={true}
           alt="Logo Eneva"
         />
 

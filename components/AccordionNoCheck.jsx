@@ -18,6 +18,7 @@ export default function AccordionNoCheck (props) {
           height={17} 
           width={17}
           layout="fixed"
+          unoptimized={true}
           alt="Check"
         />
       </button>

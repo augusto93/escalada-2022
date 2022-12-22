@@ -8,6 +8,7 @@ export default function Mountain() {
           width={1152}
           height={650} 
           layout='fixed'
+          unoptimized={true}
           alt="Escalada"
         />
 

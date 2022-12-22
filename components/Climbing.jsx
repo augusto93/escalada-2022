@@ -19,6 +19,7 @@ export default function Climbing({textOpen, setTextOpen, indexText, setIndexText
                 width={39}
                 height={48} 
                 layout='fixed'
+                unoptimized={true}
                 alt="Flag"
               />
             </div>
@@ -40,6 +41,7 @@ export default function Climbing({textOpen, setTextOpen, indexText, setIndexText
                 width={39}
                 height={48} 
                 layout='fixed'
+                unoptimized={true}
                 alt="Flag"
               />
             </div>
@@ -51,6 +53,7 @@ export default function Climbing({textOpen, setTextOpen, indexText, setIndexText
                 width={39}
                 height={48} 
                 layout='fixed'
+                unoptimized={true}
                 alt="Flag"
               />
             </div>
@@ -77,6 +80,7 @@ export default function Climbing({textOpen, setTextOpen, indexText, setIndexText
                 width={39}
                 height={48} 
                 layout='fixed'
+                unoptimized={true}
                 alt="Flag"
               />
             </div>
@@ -88,6 +92,7 @@ export default function Climbing({textOpen, setTextOpen, indexText, setIndexText
                 width={39}
                 height={48} 
                 layout='fixed'
+                unoptimized={true}
                 alt="Flag"
               />
             </div>
@@ -99,6 +104,7 @@ export default function Climbing({textOpen, setTextOpen, indexText, setIndexText
                 width={39}
                 height={48} 
                 layout='fixed'
+                unoptimized={true}
                 alt="Flag"
               />
             </div>

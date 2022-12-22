@@ -10,6 +10,7 @@ export default function LoadingScreen() {
               width={150}
               height={84} 
               layout='fixed'
+              unoptimized={true}
               alt="loading"
             />
   

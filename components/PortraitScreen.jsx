@@ -5,7 +5,7 @@ export default function PortraitScreen() {
     <>
       <div className="container">
         <div className="image">
-          <Image src="/images/phone.svg" width={82} height={82} layout="fixed" alt="telefone"/>
+          <Image src="/images/phone.svg" width={82} height={82} layout="fixed" unoptimized={true} alt="telefone"/>
         </div>
         <span>O app só funciona em modo paisagem.</span>
         <span>Rotacione a tela.</span>

@@ -11,6 +11,7 @@ export default function ButtonVideo({videoOpen, setVideoOpen}) {
           height={29} 
           width={29}
           layout="fixed"
+          unoptimized={true}
           alt="Botão de play"
         />
       </div>
